@@ -1,6 +1,6 @@
 # Site settings
 title: Cyril
-description: 'Cyril - a minimal personal site'
+description: 'CasaNoe - a minimal personal site'
 url: 'http://www.casanoe.fr'
 baseurl: '/welcome/'
 # google_analytics: 'UA-XXXXXX-X'
