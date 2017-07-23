@@ -1,0 +1,39 @@
+# Site settings
+title: Cyril
+description: 'Cyril - a minimal personal site'
+url: 'http://www.casanoe.fr'
+baseurl: '/welcome/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Josh Gerdes'
+  email: cyrilv21@gmail.com
+  #twitter_username: joshgerdes
+  #facebook_username: joshgerdes
+  github_username:  casanoe
+  #linkedin_username:  joshgerdes
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
