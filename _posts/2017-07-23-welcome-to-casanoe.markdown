@@ -1,6 +1,6 @@
 ---
 title:  "Welcome to CasaNoe!"
-date:   2017-23-07 15:04:23
+date:   2017-07-23 15:04:23
 categories: [casa]
 tags: [casa]
 ---
