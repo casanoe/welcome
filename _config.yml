@@ -4,7 +4,7 @@ description: 'CasaNoe - a minimal personal site'
 url: 'http://www.casanoe.fr'
 baseurl: '/welcome/'
 # google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'cyril_verdier'
+disqus_shortname: 'cverdier'
 
 author:
   name: 'Cyril Verdier'
